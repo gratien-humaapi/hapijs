@@ -1,0 +1,18 @@
+
+### Go to home page
+GET http://localhost:3000 HTTP/1.1
+
+### Get all users
+GET http://localhost:3000/users HTTP/1.1
+
+### Go a specific user
+GET http://localhost:3000/users/6197bb98b4fb464ce5a440f3 HTTP/1.1
+
+### Add a user
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Jonhson",
+    "firstName": "Marc"
+}
